@@ -1,9 +1,15 @@
+html {
+  height: 100%;
+}
+
 body
 {
   background-color: #fcfcfc;
   font-size: 1.3em;
   font-family: 'Droid', sans-serif;
-
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 th {
@@ -11,20 +17,59 @@ th {
 }
 
 
+thead tr {
+  border-bottom: solid;
+  background: #fcfcfc;
+  border-bottom: 1px solid #000;
+}
+
+.striped tr:nth-child(odd) {
+    background-color: #f2f2f2
+}
+
+
 .border-bottom {
-    border-bottom: 1px solid #000;
+
+    /* border-bottom: 1px solid #000;*/
 }
 
 .center
 {
-  position: absolute;
+  /*position: absolute;
   margin: auto;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
   width: 500px;
-  height: 100px;
-  background-color: #ccc;
-  border-radius: 3px;
+  height: 800px;
+  background-color: #fff;
+  border-radius: 3px;*/
+
+  /*flex: 1 0 auto;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  height: 100%;*/
+  margin: auto;
+}
+
+input[type=number] {
+  width: 35px;
+  height: 30px;
+  text-align: right;
+}
+
+.footer {
+  /*height: 50px;
+  margin-top: -50px;*/
+  flex-shrink: 0;
+  margin: auto;
+
+  align-items: center;
+  text-align: center;
+  background: #666;
+  width: 100%;
+  color: #fff;
+  padding: 10px;
 }
