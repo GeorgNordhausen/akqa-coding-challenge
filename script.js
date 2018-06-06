@@ -1,16 +1,10 @@
-/*function updateInput(ish){
-    var test = document.getElementById("fieldname").value = ish;
-    alert(test);
-}*/
+/*
+  Javascript for AKQA coding Challenge
 
+  Georg Nordhausen 2018
 
-/*var sel = document.getElementById('shirt');
-  sel.onchange = function() {
-      console.log(this.value);
-     //var show = document.getElementById('show');
-     //show.innerHTML = this.value;
-  }
 */
+
   var items = document.getElementsByClassName('item');
 
   for (var i=0; i<items.length; i++) {
