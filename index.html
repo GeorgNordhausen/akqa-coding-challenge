@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="center">
-      <h1>AKQA</h1>
+      <h1><img src="logo.png"></h1>
 
       <h2>Your Basket</h2>
 
@@ -22,17 +22,19 @@
         <tr class="border-bottom">
           <th>Product</th>
           <th>Price</th>
-          <th>qty</th>
+          <th>Qty</th>
           <th>Cost</th>
         </tr>
         </thead>
         <tbody>
         <tr>
-            <td>Cotton T-Shirt, Medium</td><td>$1.99</td><td><input id="t-shirt" type="number" value="1"/></td><td>$1.99</td><td><img src="trash.png"></td>
+            <td>Cotton T-Shirt, Medium</td><td>1.99</td><td><input class="item" id="shirt" type="number" value="1"/></td><td>1.99</td><td><img class="trash" src="trash.png"></td>
         </tr>
-            <td>Baseball Cap, One Size</td><td>$2.99</td><td><input id="cap" type="number" value="1"/></td><td>$5.98</td><td>🛒</td>
         <tr>
-            <td>Swim Shorts, Medium</td><td>$3.99</td><td><input id="shorts" type="number" value="1"/></td><td>$3.99</td><td>🛒</td>
+            <td>Baseball Cap, One Size</td><td>$2.99</td><td><input class="item" id="cap" type="number" value="1"/></td><td>$5.98</td><td><img class="trash" src="trash.png"></td>
+        </tr>
+        <tr>
+            <td>Swim Shorts, Medium</td><td>$3.99</td><td><input class="item" id="shorts" type="number" value="1"/></td><td>$3.99</td><td><img class="trash" src="trash.png"></td>
         </tr>
         </tbody>
       </table>
@@ -55,5 +57,7 @@
       <div class="footer">
         @2013 AKQA Registered in England 2964394
       </div>
+      <script src="script.js"></script>
+
   </body>
 </html>

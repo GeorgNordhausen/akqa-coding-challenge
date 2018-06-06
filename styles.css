@@ -10,12 +10,22 @@ body
   display: flex;
   flex-direction: column;
   height: 100vh;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 th {
     text-align: left;
 }
 
+h2 {
+    text-shadow: 1px 1px 1px #666; 
+}
+
+.trash {
+  height: 30px;
+  width: 30px;
+}
 
 thead tr {
   border-bottom: solid;
@@ -72,4 +82,5 @@ input[type=number] {
   width: 100%;
   color: #fff;
   padding: 10px;
+  margin-bottom: 0;
 }
